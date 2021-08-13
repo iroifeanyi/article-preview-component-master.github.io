@@ -15,21 +15,23 @@ body{
 }
 .box{
     background-color: white;
-    height: 38vh;
+    /* height: 38vh; */
     width: 800px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
 }
+img{
+    width: 100%;
+}
 .first-image{
     width: calc(100% - 60%);
-    /* height: calc(100vh - 38vh); */
+    margin-bottom: -10px;
 }
 .first-image img{
     width: 100%;
     max-width: 100%;
     object-fit: cover;
-    min-height: 61.5%;
 }
 .responsive {
     width: 100%;
@@ -97,18 +99,19 @@ body{
 }
 @media screen and (max-width: 780px){
     .box{
-        height: 80vh;
+        /* height: 80vh; */
         width: 330px;
         flex-direction: column;
     }
     .first-image{
         width: 331px;
-        height: calc(100vh - 38vh);
+        /* height: calc(100vh - 38vh); */
     }
     .sec-box{
         width: 330px;
-        padding: 1px 0px 0px 20px;
-        margin-bottom: 60px;
+        padding: 1px 15px 0px 15px;
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
     .second{
         width: 100%;
